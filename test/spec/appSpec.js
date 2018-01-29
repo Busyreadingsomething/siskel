@@ -83,6 +83,7 @@ describe('Siskel', function() {
     });
 
     it('should toggle like state of its model', function() {
+      //debugger;
       modelView.handleClick();
       expect(model.toggleLike).to.have.been.called;
     });
